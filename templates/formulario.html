@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+        <a href="/index.html" style="text-decoration: none; color: black;">Inicio</a>
+        <a href="galeria.html" style="text-decoration: none; color: black;">Galeria</a>
+        <a href="tablas.html" style="text-decoration: none; color: black;">Tablas</a>
+        <a href="listas.html" style="text-decoration: none; color: black;">Listas</a>
+         <a href="formulario.html" style="text-decoration: none; color: black;">Formulario</a>
+        <a href="https://www.google.com/" style="text-decoration: none; color: black;">Google </a>
+    </header>
+<body>
+    <main>
+        <section>
+            <form action="Link" method="post" target="_blank">
+                <fieldset>
+                    <legend>Datos personales</legend>
+                <label for="firstname">Nombre: </label>
+                <input size="20" type="text" name="firstname" id="firstname" placeholder="Ingrese nombre" required> <br> <br>
+                <label for="surname">Apellido: </label>
+                <input size="20" type="text" name="surname" id="surname" placeholder="Ingrese Apellido" required> <br> <br>
+                <label for="age">Edad: </label>
+                <input type="number" name="age" id="age"> <br> <br>
+                <label for="birthday">Fecha de nacimiento</label>
+                <input type="date" id="birthday" name="birthday">
+                <legend>Seleccione su genero</legend> 
+                <select name="sexo" id="sex">
+                    <option>M</option>
+                    <option>F</option>
+                    <option>Other</option>
+                </select> <br> <br>
+                <h3>Radio</h3>
+                <input type="radio" name="opcion" value="1">App web 
+                <input type="radio" name="opcion" value="2">Analisis de datos
+                <input type="radio" name="opcion" value="3">Desarrollo de jueguito
+                <h3>Checkbox</h3>
+                <input type="checkbox" name="opcion" value="1">HTML
+                <input type="checkbox" name="opcion" value="2">CSS
+                <input type="checkbox" name="opcion" value="3">JS
+                </fieldset>
+                <button input type="submit" value="Enviar datos">Enviar</button>
+                <button input type="submit" value="Enviar datos"> Borrar</button>
+                
+                
+            </form>
+        </section>
+    </main>
+</body>
+</html>
